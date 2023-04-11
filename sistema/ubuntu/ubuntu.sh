@@ -145,6 +145,12 @@ then
     rm komorebi*.deb
 
     sudo apt upgrade && sudo apt upgrade
+    # Instalar Eduran
+    wget https://cat.eduroam.org/user/API.php?action=downloadInstaller&lang=pt&prof>
+
+    python eduroam-linux-U-UEdC-eduroam.py
+          
+
 
     # Instalando o VPN unicamp
     cd /media/$USER/thigs/pessoal/reinstalar_Ubuntu/open
