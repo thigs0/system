@@ -28,6 +28,8 @@ if [ ${mode} == 1 ]
     dpkg -i amdgpu-install_5.4.50403-1_all.deb
     rm amdgpu-install_5.4.50403-1_all.deb
     
+    sudo add-apt-repository ppa:graphics-drivers/ppa
+    
     #instala ide
     cd /home/$USER/Downloads
     wget https://download1.rstudio.org/desktop/centos7/x86_64/rstudio-1.4.1717-x86_64.rpm
@@ -124,6 +126,7 @@ then
     wget https://repo.radeon.com/amdgpu-install/22.40.3/ubuntu/focal/amdgpu-install_5.4.50403-1_all.deb
     dpkg -i amdgpu-install_5.4.50403-1_all.deb
     rm amdgpu-install_5.4.50403-1_all.deb
+    sudo add-apt-repository ppa:graphics-drivers/ppa
 
 elif [ ${mode} == 3]
 then
