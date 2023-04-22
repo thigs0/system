@@ -30,6 +30,9 @@ if [ ${mode} == 1 ]
     
     sudo add-apt-repository ppa:graphics-drivers/ppa
     
+    # Adiciona os meus papéis de parede nas propriedades
+    cp ./Background/*.png /usr/share/backgrounds
+    
     #instala ide
     cd /home/$USER/Downloads
     wget https://download1.rstudio.org/desktop/centos7/x86_64/rstudio-1.4.1717-x86_64.rpm
@@ -39,7 +42,7 @@ if [ ${mode} == 1 ]
     sudo apt install neovim
 
     sudo dpkg -i *.deb				# Instala o r-studio baixado
-
+    
     # Instala bibliotecas
 
     npm install -g mathjax-node-cli
