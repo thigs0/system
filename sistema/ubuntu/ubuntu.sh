@@ -130,6 +130,9 @@ then
     dpkg -i amdgpu-install_5.4.50403-1_all.deb
     rm amdgpu-install_5.4.50403-1_all.deb
     sudo add-apt-repository ppa:graphics-drivers/ppa
+    
+    #instala minecraft
+    flatpak install flathub org.prismlauncher.PrismLauncher
 
 elif [ ${mode} == 3]
 then
