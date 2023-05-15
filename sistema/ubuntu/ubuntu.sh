@@ -81,6 +81,14 @@ if [ ${mode} == 1 ]
 
     # instala a fonte
     sudo apt install fonts-firacode
+    
+    # Nodejs mais recente
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+    source ~/.bashrc  # ou source ~/.zshrc se estiver usando o shell Zsh
+    nvm install 14
+    node -v
+    npm -v
+
 
     sudo apt upgrade && sudo apt upgrade
 
