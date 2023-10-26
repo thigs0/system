@@ -5,8 +5,20 @@
 #### (essential.sh) Instala Pacotes essesiais como:
 - **Flatpak**
 
+- **snap**
+
 
 #### (code.sh) Instala linguagens de programação e suas bibliotecas importantes
 - **Python**
 
-  Matplotlib, 
+    Matplotlib, numpy, pandas, AgenciBr, xarray, geopandas, scikit-learn, scipy, xclim
+
+- **Julia**
+    
+    CSV, Dataframe, Plots, Pyplot, LinearAlgebra, Javis, Calculus
+
+- **Latex**
+
+- **Git**
+
+- ****
