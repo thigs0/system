@@ -21,4 +21,26 @@
 
 - **Git**
 
-- ****
+- **lunarvim, neovim**
+
+- **VsCode**
+
+
+#### (ultilitari) Instala programas de produtividade
+- **Obsidian**
+- **Onlyoffice**
+- **Vivaldi**
+- **Okular**
+- **Xournal++**
+- **Gimp**
+
+#### (games) Instala laucher de jogos e emuladores
+- **Steam**
+- **HeroicGames**
+- **Lutris**
+- **Yuzu** (Emulador de nintendo)
+- **xbox-cloud-gaming**
+
+#### (dev_vid) Aplicativos para desenvolvimento de jogos e vídeos
+- **Blender**
+- **kdenLive**
