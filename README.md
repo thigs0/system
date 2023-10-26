@@ -8,4 +8,5 @@
 
 #### (code.sh) Instala linguagens de programação e suas bibliotecas importantes
 - **Python**
+
   Matplotlib, 
