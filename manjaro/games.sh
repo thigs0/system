@@ -7,3 +7,4 @@ flatpak install flathub org.yuzu_emu.yuzu
 
 flatpak install --user https://flathub.org/repo/appstream/io.github.mandruis7.xbox-cloud-gaming-electron.flatpakref
 flatpak --user update io.github.mandruis7.xbox-cloud-gaming-electron
+pamac install mangohud #Instala mangoud

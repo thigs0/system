@@ -11,10 +11,11 @@ pip install matplotlib, numpy, pandas, AgenciBr, xarray, geopandas, scikit-learn
 
 sudo snap install julia --classic
 
-julia -e 'using Pkg; Pkg.add.(["CSV", "DataFrames", "Plots", "LinearAlgebra", "Javis", "Calculus", "PyPlot"])'
+julia -e 'using Pkg; Pkg.add.(["CSV", "DataFrames", "Plots", "LinearAlgebra", "Javis", "Calculus", "PyPlot", "TickTock"])'
 
 # Instala latex
 sudo pacman -S texlive --noconfirm
+
 
 #instala git
 sudo pacman -S git --noconfirm
@@ -24,3 +25,5 @@ LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.
 bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 
 sudo snap install code --classic #Instala visual studio code
+pamac install rxvt-unicode #New terminal
+pamac build mssql-server #instala sql server
