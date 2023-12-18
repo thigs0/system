@@ -5,6 +5,5 @@ sudo snap install okular
 sudo snap install xournalpp
 sudo snap install gimp
 
-#Vivaldi
-sudo pacman -S git base-devel
-sudo pamac install vivaldi
+#Instala o navegador vivaldi
+sudo apt install vivaldi -y

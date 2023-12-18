@@ -25,5 +25,3 @@ LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.
 bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 
 sudo snap install code --classic #Instala visual studio code
-pamac install rxvt-unicode #New terminal
-pamac build mssql-server #instala sql server
