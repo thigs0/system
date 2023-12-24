@@ -23,6 +23,8 @@
 
 - **VsCode**
 
+- **CDO(Climate Data Operator)**
+
 
 #### (ultilitari) Instala programas de produtividade
 - **Obsidian**
