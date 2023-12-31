@@ -1,5 +1,9 @@
 # System
 
+#### Customization
+- **Komorebi**
+- **Fira-code**
+- **Papirus**
 
 #### (essential.sh) Instala Pacotes essesiais como:
 - **Flatpak**
@@ -44,3 +48,9 @@
 #### (dev_vid) Aplicativos para desenvolvimento de jogos e vídeos
 - **Blender**
 - **kdenLive**
+
+## To-Do
+[] - Adicionar Fira-code no Manjaro
+[] - Adicionar Komorebi no Manjaro
+[] - Adicionar Papirus no Manjaro
+[] - Criar plano de fundo próprio com um arquivo Komorebi

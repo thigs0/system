@@ -1,9 +1,8 @@
-
-sudo snap install obsidian --classic
-sudo snap install onlyoffice-desktopeditors
-sudo snap install okular
-sudo snap install xournalpp
-sudo snap install gimp
+sudo snap install obsidian --classic # Instala o obsidian
+sudo snap install onlyoffice-desktopeditors #Instala o onlyoffice
+sudo snap install okular #Instala o okular
+sudo snap install xournalpp #Instala o xournall++
+sudo snap install gimp # Instala o gimp
 
 #Vivaldi
 sudo pacman -S git base-devel

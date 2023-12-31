@@ -22,6 +22,18 @@ bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/
 #Instala VSCode
 sudo snap install code --classic
 
+#instala Zsh e os themas dele
+sudo apt install zsh -y
+chsh -s /bin/zsh #deixa o zsh o padrão
+
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" #Install oh-my-zsh
+cp code/.zshrc ~/ #move o nosso padrão para a home
+
+#Instala fortran
+wget https://registrationcenter-download.intel.com/akdlm/IRC_NAS/41df6814-ec4b-4698-a14d-421ee2b02aa7/l_fortran-compiler_p_2024.0.2.28.sh
+chmod +x l_fortran-compiler_p_2024.0.2.28.sh
+sudo ./l_fortran-compiler_p_2024.0.2.28.sh
+
 
 
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 read -p """Digite qual sistema deseja preparar
-        [1] - Ubuntu
+        [1] - Ubuntu/Debian
         [2] - Manjaro
         :""" mode
 
