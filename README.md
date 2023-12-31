@@ -50,7 +50,18 @@
 - **kdenLive**
 
 ## To-Do
-[] - Adicionar Fira-code no Manjaro
-[] - Adicionar Komorebi no Manjaro
-[] - Adicionar Papirus no Manjaro
-[] - Criar plano de fundo próprio com um arquivo Komorebi
+[]  Adicionar Fira-code no Manjaro
+
+[]  Adicionar Komorebi no Manjaro
+
+[]  Adicionar Papirus no Manjaro
+
+[]  Criar plano de fundo próprio com um arquivo Komorebi
+
+[]  Maneira de instalar pacotes do blender pelo terminal
+
+[]  No code adicinar a instalação do arquivo init do neovim
+
+[]  Maneira de generalizar o OpenVPN
+
+[] Adiconar vshel no manjaro
