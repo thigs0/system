@@ -1,5 +1,5 @@
 #Steam
-sudo snap install steam
+sudo apt install steam -y
 
 sudo snap install heroic games --edge #Instala o Heroic games
 sudo apt install lutris #Instala o lutris
@@ -12,4 +12,5 @@ flatpak --user update io.github.mandruis7.xbox-cloud-gaming-electron
 
 sudo apt install mangohud #Instala mangoud
 
+sudo apt install wine64 wine32-preloader winetricks -y
 

@@ -7,3 +7,22 @@ read -p """ Digite
         [4] - other
         [5] - exit""" mode
 
+if [ $mode == 1 ]
+    then
+    ./essential.sh
+    ./code.sh
+    ./games.sh
+    ./utilitari.sh
+    ./dev_vid.sh
+    ./customization.sh
+elif [ $mode == 2 ]
+    then
+    ./essential.sh
+    ./games.sh
+elif [ $mode == 3 ]
+    then
+    ./essential.sh
+    ./code.sh
+    ./dev_vid.sh
+    ./customization.sh
+fi
