@@ -12,8 +12,10 @@ julia -e 'using Pkg; Pkg.add(["CSV","DataFrames","Plots","LinearAlgebra", "Javis
 #Instala latex
 sudo apt install textlive
 
-#instala git
+#instala git e configura
 sudo apt install git -y
+git config --global user.email "tthiagosantos38@gmail.com"
+git config --global user.name "thigs0"
 
 #Instala neovim e LunarVim
 sudo apt install -y neovim
