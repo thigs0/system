@@ -9,12 +9,11 @@ read -p """ Digite
 
 if [ $mode == 1 ]
     then
-    ./essential.sh
-    ./code.sh
-    ./games.sh
-    ./utilitari.sh
-    ./dev_vid.sh
-    ./customization.sh
+    ./ununtu/games.sh
+    ./ubuntu/utilitari.sh
+    ./ubuntu/dev_vid.sh
+    ./ubuntu/customization.sh
+    ./ubuntu/code.sh
 elif [ $mode == 2 ]
     then
     ./essential.sh
