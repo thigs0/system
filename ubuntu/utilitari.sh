@@ -7,6 +7,5 @@ sudo snap install gimp
 sudo snap install vlc
 
 #Instala o navegador vivaldi
-sudo add-apt-repository 'deb https://repo.vivaldi.com/archive/deb/ stable main'
-udo apt update && sudo apt install vivaldi-stable -y
+flatpak install flathub com.vivaldi.Vivaldi
 

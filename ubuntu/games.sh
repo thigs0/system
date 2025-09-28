@@ -14,3 +14,4 @@ sudo apt install mangohud #Instala mangoud
 
 sudo apt install wine64 wine32-preloader winetricks -y
 
+flatpak install flathub com.heroicgameslauncher.hgl

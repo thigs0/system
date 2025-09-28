@@ -1,5 +1,11 @@
 #!/bin/bash
 
+function commons_install() {
+  #install packages
+  mkdir ${HOME}/background
+  cp ./commom_files/background/* ${HOME}/background #Copy the background
+}
+
 read -p """Digite qual sistema deseja preparar
         [1] - Ubuntu/Debian
         [2] - Manjaro
@@ -7,20 +13,16 @@ read -p """Digite qual sistema deseja preparar
         [4] - Mint
         :""" mode
 
-if [ ${mode} == 1 ]
-  then
+if [ ${mode} == 1 ]; then
   source ./ubuntu/ubuntu.sh
 
-elif [ ${mode} == 2 ]
-  then
+elif [ ${mode} == 2 ]; then
   source ./manjaro/manjaro.sh
 
-elif [ ${mode} == 3 ]
-  then
+elif [ ${mode} == 3 ]; then
   source ./kali/kali.sh
 
-elif [ ${mode} == 4 ]
-  then
+elif [ ${mode} == 4 ]; then
   source ./mint/mint.sh
 
 fi
